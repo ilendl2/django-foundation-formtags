@@ -16,18 +16,18 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     # TODO: put package requirements here
-    "Django>=1.6,<=1.9.2",
+    "Django>=1.6,<1.10",
 ]
 
 test_requirements = [
     # TODO: put package test requirements here
-    "Django>=1.6,<=1.9.2",
+    "Django>=1.6,<1.10",
 ]
 
 setup(
-    name='foundation_formtags',
-    version='0.1.0',
-    description="A simple Django template tag to work with Zurb Foundation",
+    name='django-foundation-formtags',
+    version='0.0.5',
+    description="Templatetags to add Zurb Foundation support to Django Forms",
     long_description=readme + '\n\n' + history,
     author="Christopher Clarke",
     author_email='cclarke@chrisdev.com',
